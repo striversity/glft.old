@@ -2,6 +2,8 @@ package db
 
 import (
 	"encoding/json"
+  "errors"
+  "fmt"
 	"os"
 
 	log "github.com/sirupsen/logrus"
@@ -9,7 +11,7 @@ import (
 )
 
 const (
-	jsonFile   = "github.com/striversity/glft/shared/sec02/db/people.json"
+	jsonFile   = "people.json"
 	minRecords = 500
 	maxRecords = 1000
 )
@@ -25,9 +27,11 @@ var _db database
 // Load Person records from people.json file into database, return nil on success or an error value
 func Load() (err error) {
     // to ensure that we can always load the data, use the user's GOPATH
-	f, err := os.Open(os.Getenv("GOPATH") + "/src/" + jsonFile)
+
+  dbFile := fmt.Sprintf(".%c%s", os.PathSeparator, jsonFile) 
+	f, err := os.Open(dbFile)
 	if nil != err {
-		return err
+		return errors.New("Can't open people.json. Did you copy people.json from shared/sec02/db to current directory?")
 	}
 	defer f.Close()
 

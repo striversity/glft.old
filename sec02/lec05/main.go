@@ -20,14 +20,14 @@ func main() {
 		fmt.Printf("x > 10: %v\n", false)
 	}
 
-	// short var declaration in 'if' staetment
+	// short var declaration in 'if' statement
 	if x := 4; x < 5 {
 		fmt.Println("'x' is local to 'if', and is different from 'x' in main.")
 	}
 
 	fmt.Println("'x' =", x)
 
-	// 'if-if else-...-else' statemetn
+	// 'if-if else-...-else' statement
 	x = 11
 	if x < 5 {
 		fmt.Println("x is < 5")
