@@ -32,7 +32,10 @@ import (
 )
 
 func main() {
-	log.Println(db.Load()) // must load data first
+  err:= db.Load() // must load data first
+	if err != nil{
+    log.Fatal(err)
+  }
 	fmt.Println("Stats for all records:")
 	n, g, income := stats.HighestEarner(personRecord)
 	fmt.Printf("Higest earner is %v (%v), with %v.\n", n, g, income)
