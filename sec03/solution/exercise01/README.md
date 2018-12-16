@@ -4,7 +4,7 @@
 
 ### TODO 1
 
-1. Declares an array of 10 to 20 elements of type flaot64 using a const for the array size
+1. Declares an array of 10 to 20 elements of type float64 using a const for the array size
 
 ### TODO 2
 

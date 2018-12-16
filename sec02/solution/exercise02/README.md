@@ -10,7 +10,7 @@ Complete the GO application
 
 ## TODO - 3 : Print the value of the variable 'test'
 
-Given the varilable 'test' below, print its value. Don't worry about how it is defined.
+Given the variable 'test' below, print its value. Don't worry about how it is defined.
 
 var x = 10
 var test = 5 > x

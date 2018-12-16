@@ -2,7 +2,7 @@
 
 Complete the GO application in main.go.
 
-## TODO - 1 : change the program to pring your full name
+## TODO - 1 : change the program to print your full name
 
 For example, the output could be:
 

@@ -2,7 +2,7 @@
 
 ## Todo 1
 
-Given a file with Comma-Separated-Values represensenting of the largets cities in the World, write a Go program that does the following:
+Given a file with Comma-Separated-Values representing of the largest cities in the World, write a Go program that does the following:
 
 1. Read the records form the data file. Data file name is passed as a program argument to the program.
     * Hint: Use os.Args
@@ -10,13 +10,13 @@ Given a file with Comma-Separated-Values represensenting of the largets cities i
 2. For each line read from the file, initialize a struct object.
     * TIP: Write a function which takes a CSV string and returns a object.
     * TIP: You will need to use the packages 'strings' and 'strconv'.
-    * HINT: If you are using the 'input.FileReader' object, be sure to check for io.EOF when reading records and handle it occordingly.
+    * HINT: If you are using the 'input.FileReader' object, be sure to check for io.EOF when reading records and handle it accordingly.
 3. Print names of the countries with 5 or more of the largest cities in the data set.
 
-## Requriements
+## Requirements
 
 1. You must use a Struct type to represent a record from the file.
-2. Use more than one files for readablity.
+2. Use more than one files for readability.
 
 ## Testing
 

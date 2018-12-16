@@ -2,4 +2,4 @@
 
 ## TODO 1
 
-Modify the function to use approviate types for the function parameters.
+Modify the function to use appropriate types for the function parameters.

@@ -1,6 +1,6 @@
 # Section 02 - Exercise 06
 
-Given the function 'getUserAge()', don't worry aout how it is implemented, write a program that does the following:
+Given the function 'getUserAge()', don't worry about how it is implemented, write a program that does the following:
 
     * _NOTE_: I have provided the function 'getUserAge()', which gets the user's age.
 

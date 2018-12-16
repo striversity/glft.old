@@ -4,7 +4,7 @@
 
 ### TODO 1
 
-1. Declares an array of 10 to 20 elements of type flaot64
+1. Declares an array of 10 to 20 elements of type float64
    - use a const for the array size
 2. Initialize a Slice from the Array, such that the Slice has the same length as the Array.
     - NOTE: The 'ONLY' purpose of the Array is to initialize the Slice in the program. Don't use the Array in any other part of the program.

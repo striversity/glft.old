@@ -1,10 +1,10 @@
 # Section 02 - Exercise 07
 
-Write a program that calculates the sum of ODD nubmers between 1 to 10001.
+Write a program that calculates the sum of ODD numbers between 1 to 10001.
 
 ## TODO 1
 
-Calculate the sum of ODD nubmers between 1 to 10001
+Calculate the sum of ODD numbers between 1 to 10001
 
     * HINT: Use the modulo operator: https://www.khanacademy.org/computing/computer-science/cryptography/modarithmetic/a/what-is-modular-arithmetic
 
@@ -18,6 +18,6 @@ The result should be 25010001.
 
 ## TODO 2
 
-Calculate the 'integer' average of all nubmers from 1 to 10001, excluding the nubmers: 
+Calculate the 'integer' average of all numbers from 1 to 10001, excluding the numbers: 
    10, 19, 21, 39, 309, 431, 643, 942, 1209, 7981, 8888, 9910
 Result should be: 5003

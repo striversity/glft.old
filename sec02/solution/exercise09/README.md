@@ -2,7 +2,7 @@
 
 Given the functions:
 
-    * getNumOfItemsDb1() int - which returns the nubmer of items in db1
+    * getNumOfItemsDb1() int - which returns the number of items in db1
     * getItemCostDb1(int) float64 - which returns the cost of an it in db1
     * and functions getNumOfItemsDb2() and getItemCostDb2() which operates on db2
 

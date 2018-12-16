@@ -6,7 +6,7 @@ create a package call 'sa' for 'secret agent'
 
 ## TODO 2
 
-create a file in pacakge 'sa' with appropriate constants or variables for the following data:
+create a file in package 'sa' with appropriate constants or variables for the following data:
 
 1. agent code name, '007'
 2. agent full name, 'James Bond'
@@ -16,7 +16,7 @@ create a file in pacakge 'sa' with appropriate constants or variables for the fo
 
 ## TODO 3
 
-create another file in pacakge 'sa' that exports:
+create another file in package 'sa' that exports:
 
 1. agent code name using a function
 2. agent full name using a function

@@ -8,7 +8,7 @@ Write a complete Go program which declares the following identifiers as either c
 2. secondsInHour - Used instead of the value 60
 3. hoursInDay - Used instead of the value 24
 4. presenterName - name of current presenter which may change as records are processed
-5. favoriteLanguage - holds your favoritate programming or written language
+5. favoriteLanguage - holds your favorite programming or written language
 6. itemCount - represents the number of items in a shopping cart
 7. totalPrice - price of all items in a shopping cart
 8. isLoggingEnabled
