@@ -26,14 +26,13 @@ func main() {
 }
 
 func getValue() Printer {
-	ch := make(chan int)
-	go func() {
-		// send either 0 or 1 with equal probability
-		select {
-		case ch <- 1:
-		case ch <- 0:
-		}
-	}()
+	ch := make(chan int, 1)
+
+	// send either 0 or 1 with equal probability
+	select {
+	case ch <- 1:
+	case ch <- 0:
+	}
 	choice := <-ch
 
 	if choice == 0 {

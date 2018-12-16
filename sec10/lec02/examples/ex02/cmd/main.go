@@ -44,7 +44,7 @@ func Copy(dst io.Writer, src io.Reader) (n int64, err error) {
 		if readErr == io.EOF {
 			return
 		}
-		if readErr != io.EOF {
+		if readErr != nil {
 			return n, readErr
 		}
 	}
