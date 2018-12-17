@@ -39,8 +39,8 @@ func consumer(wg *sync.WaitGroup, in <-chan Message) {
 		for {
 			select {
 			case msg := <-in:
-				timeout = time.After(5 * time.Second) // reset timer after we receive work
 				processMessage(msg)
+				timeout = time.After(5 * time.Second) // reset timer after we receive work
 			case t := <-timeout:
 				log.Warnf("Waited %v to send message, shutting down producer", t)
 				return

@@ -41,8 +41,8 @@ func consumer(server string) {
 			log.Errorf("Can't decode message from server %v: %v", server, err)
 			return
 		}
-		conn.SetDeadline(time.Now().Add(5 * time.Second)) // reset timer after we receive work
 		processMessage(msg)
+		conn.SetDeadline(time.Now().Add(5 * time.Second)) // reset timer after we receive work
 	}
 }
 
